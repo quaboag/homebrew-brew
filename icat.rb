@@ -1,8 +1,7 @@
 class Icat < Formula
-  desc "Outputs an image on a 256-color or 24-bit color enabled terminal with UTF-8 locale, such as gnome-terminal, konsole or rxvt-unicode (urxvt)."
+  desc "Outputs an image on a color enabled terminal"
   homepage "https://github.com/atextor/icat"
   url "https://github.com/quaboag/homebrew-brew/blob/master/Archives/icat-0.5.tar.gz"
-  version "0.5"
   sha256 "1d77f20c7eab29efe22aeebe426301b7dca1f898759c63f32a714c7c9ae1aab4"
   depends_on "imlib2" => :build
 
